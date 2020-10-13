@@ -83,7 +83,7 @@ Details about the intent #book_tickets
 
 
 ## Define Entities
-For the entities, we can define 3 main entities that the user might use: terms related to the category of movies (@movie), examples of movie names (@movie-name), and example of cinema names found in Dubai (@dubai-cinema). For each entity, we will be defining a value and the different synonyms that a person might use by which he/she means the same value.
+For the entities, we can define 3 main entities that the user might use: terms related to the category of movies (@movie), examples of movie names (@movie-name), and example of cinema names found in vijayawada. For each entity, we will be defining a value and the different synonyms that a person might use by which he/she means the same value.
 
 1.  Under the tab **Entities**, click on **Add entity** that will be under the tab **My entities** (these are the user defined entities).
 2.  Enter the **Entity name** and click on **Create entity**.
@@ -95,7 +95,7 @@ Details about the entity @movie
 Details about the entity @movie-name
 
 
-Details about the entity @dubai-cinema
+Details about the entity 
 
 
 4.  Under **System entities**, whcih are pre-defined entities that can be directly used, enable **sys-date**, **sys-time**, and **sys-number**. These will be used in the dialog to get the date and time of when the user wishes to see the movie and the number of seat he/she wishes to reserve.
@@ -126,9 +126,9 @@ The *Welcome* has a special condition called **welcome** that is triggered when 
    Save it as: $moviename <br>
    If not present, ask: There are only 2 movies available (Spider-Man: Homecoming and Star Wars:The Last Jedi). Please enter the name of the movie you would like to watch
    
-2) Check for: @dubai-cinema <br>
+2) Check for: @vijayawada-cinema <br>
    Save it as: $movielocation  <br>
-   If not present, ask: Please enter the location of your preference in Dubai
+   If not present, ask: Please enter the location of your preference in vijayawada
    
 3) Check for: @sys-date <br>
    Save it as: $moviedate <br>
